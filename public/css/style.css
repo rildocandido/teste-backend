@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f2f2f2;
+}
+
+
+ .login {
+	 height: 100vh;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+ }
+ .tela-login-form {
+    width: 340px;
+}
+.tela-login-form form {        
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+	border-radius: 5px;
+}
+.tela-login-form h2 {
+    margin: 0 0 15px;
+} 
+.input-group-addon .fa {
+    font-size: 18px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+.bottom-action {
+  	font-size: 14px;
+}
+.help-block {
+    font-size: 0.9rem;
+    color: red;
+}
+.table.dataTable thead .sorting_asc:after {
+    content: "\e155";
+	display: none;
+}
+.table.dataTable thead .sorting:after {
+    opacity: 0.2;
+    content: "\e150";
+	display: none;
+}
