@@ -10,7 +10,7 @@ $ cd teste-beckend
 
 Rodando o script DB.sql , já vai criar as tabelas usuários e clientes, vai ser criado  um usuário  admin e senha admin para acessar o sistema 
  
-Configurar as  variaveis de banco de dados no arquivo (application/config/database.php )
+Configurar as  variáveis de banco de dados no arquivo (application/config/database.php )
  
 	'hostname' => 'localhost',
 	'username' => 'root',
