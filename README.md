@@ -9,6 +9,13 @@ $ cd teste-beckend
 ## Crie um banco de dados e import o script DB.sql .
 
 Rodando o script DB.sql , já vai criar as tabelas usuários e clientes, vai ser criado  um usuário  admin e senha admin para acessar o sistema 
+ 
+Configurar as  variaveis de banco de dados no arquivo (application/config/database.php )
+ 
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '123',
+	'database' => 'teste_amzmp' 
 
 ## Execute a aplicação 
 $ php -S localhost:3131
